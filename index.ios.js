@@ -23,21 +23,45 @@ export default class pooper extends Component {
         latitudeDelta: 0.0922,
         longitudeDelta: 0.0421,
       },
+      markers: [{
+        latlng: {
+          latitude: 55.676098,
+          longitude: 12.568337,
+        },
+        title: "Her bor noob",
+        description: "Noob noobtzens hjem",
+      }],
+    
+    initialPosition: 'unknown',
+    lastPosition: 'unknown',
+    
     };
   }
 
 
-  // onRegionChange(region) {
-  //   this.setState({ region });
-  // }
+  onRegionChange(region) {
+    this.setState({ region });
+  }
 
   render() {
     return (
       <View style={styles.container}>
-        <MapView
-           style={styles.map}
-           region={this.state.region} 
-         />
+        
+        <MapView 
+          style={styles.map} 
+          region={this.state.region} 
+        >
+          {this.state.markers.map(marker => (
+          <MapView.Marker
+            coordinate={marker.latlng}
+            title={marker.title}
+            description={marker.description}
+          />
+          ))}
+        </MapView>
+
+
+
         <Text style={styles.welcome}>
           Welcome to Pooper 💩😊!
         </Text>
