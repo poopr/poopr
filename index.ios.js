@@ -18,23 +18,14 @@ export default class pooper extends Component {
     super(props);
     this.state = { 
       region: {
-        latitude: 37.78825,
-        longitude: -122.4324,
+        latitude: 55.676098,
+        longitude: 12.568337,
         latitudeDelta: 0.0922,
         longitudeDelta: 0.0421,
       },
     };
   }
-  // getInitialState() {
-  //   return {
-  //     region: {
-  //       latitude: 37.78825,
-  //       longitude: -122.4324,
-  //       latitudeDelta: 0.0922,
-  //       longitudeDelta: 0.0421,
-  //     },
-  //   };
-  // }
+
 
   // onRegionChange(region) {
   //   this.setState({ region });
@@ -45,12 +36,7 @@ export default class pooper extends Component {
       <View style={styles.container}>
         <MapView
            style={styles.map}
-            initialRegion={{
-             latitude: 55.676098,
-             longitude: 12.568337,
-             latitudeDelta: 0.0922,
-             longitudeDelta: 0.0421,
-            }}
+           region={this.state.region} 
          />
         <Text style={styles.welcome}>
           Welcome to Pooper 💩😊!
