@@ -34,4 +34,12 @@ npm install react-native-maps --save
 react-native link react-native-maps
 ```
 
-5) Open Xcode, run the simulator.
+5) Install splash-screen stuff
+```
+npm i react-native-splash-screen --save
+react-native link react-native-splash-screen
+```
+
+6) Add headers in Build settings
+
+6) Open Xcode, run the simulator.
