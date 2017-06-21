@@ -2,12 +2,19 @@
 
 😖 😩 💩 🤢
 
-install react:
+1) install react:
+```
 npm install react
+```
 
-install react-native:
+2) install react-native:
+```
 npm install react-native
+```
 
-install react-native-maps:
+
+3) install react-native-maps:
+```
 npm install react-native-maps --save
 react-native link react-native-maps
+```
