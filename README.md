@@ -33,10 +33,3 @@ npm install react-native
 npm install react-native-maps --save
 react-native link react-native-maps
 ```
-
-5) Database stuff?
-```
-npm -g install rnpm xcode
-npm install --save react-native-sqlite-storage
-rnpm link
-```
