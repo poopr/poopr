@@ -15,7 +15,7 @@ And anyone with urgent needs can look up nearby bathrooms, ready to be shared.
 It is a match made in heaven.
 
 
-## Install development evirioment
+## Install development environment
 1) Install node package manager
 
 2) Install react:
@@ -32,4 +32,11 @@ npm install react-native
 ```
 npm install react-native-maps --save
 react-native link react-native-maps
+```
+
+5) Database stuff?
+```
+npm -g install rnpm xcode
+npm install --save react-native-sqlite-storage
+rnpm link
 ```
