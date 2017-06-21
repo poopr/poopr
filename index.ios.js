@@ -5,6 +5,7 @@
  */
 
 import React, { Component } from 'react';
+import Severity from './how_much_poo';
 import {
   AppRegistry,
   StyleSheet,
@@ -60,7 +61,7 @@ export default class pooper extends Component {
           ))}
         </MapView>
 
-
+        <Severity/>
 
         <Text style={styles.welcome}>
           Welcome to Pooper 💩😊!
