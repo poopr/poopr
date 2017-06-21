@@ -12,7 +12,15 @@ import {
   View
 } from 'react-native';
 import MapView from 'react-native-maps';
+import SplashScreen from 'react-native-splash-screen'
 
+function wait(ms){
+   var start = new Date().getTime();
+   var end = start;
+   while(end < start + ms) {
+     end = new Date().getTime();
+  }
+}
 export default class pooper extends Component {
   constructor(props) {
     super(props);
@@ -37,8 +45,13 @@ export default class pooper extends Component {
     
     };
   }
-
-
+  
+  componentDidMount() {
+    	// do stuff while splash screen is shown
+        // After having done stuff (such as async tasks) hide the splash screen
+        wait(3000);
+        SplashScreen.hide();
+  }
   onRegionChange(region) {
     this.setState({ region });
   }
