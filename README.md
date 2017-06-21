@@ -9,7 +9,7 @@ Imagine you are at a [crowded street festival](http://www.cphdistortion.dk/) and
 
 What if I told you: "There is an app for that!"
 
-Introducing Poopr! A *meticulously designed* app, part of the sharing economy.
+Introducing Poopr! A *meticulously designed* app, part of the sharing economy, potentially leveraging [blockchain technologies](https://github.com/poopr/poopr/issues/5).
 Now anyone can rent out their bathroom with just the click of a button. 
 And anyone with urgent needs can look up nearby bathrooms, ready to be shared.
 It is a match made in heaven.
@@ -33,3 +33,5 @@ npm install react-native
 npm install react-native-maps --save
 react-native link react-native-maps
 ```
+
+5) Open Xcode, run the simulator.
