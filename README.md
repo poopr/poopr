@@ -11,7 +11,7 @@ npm install react
 ```
 npm install react-native
 ```
-
+anders er noob
 
 3) Install react-native-maps:
 ```
