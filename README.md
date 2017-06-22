@@ -16,30 +16,11 @@ It is a match made in heaven.
 
 
 ## Install development environment
-1) Install node package manager
+1) Install [node package manager](https://www.npmjs.com/get-npm)
 
-2) Install react:
+2) Install the required modules
 ```
-npm install react
-```
-
-3) Install react-native:
-```
-npm install react-native
+npm install
 ```
 
-4) Install react-native-maps:
-```
-npm install react-native-maps --save
-react-native link react-native-maps
-```
-
-5) Install splash-screen stuff
-```
-npm i react-native-splash-screen --save
-react-native link react-native-splash-screen
-```
-
-6) Add headers in Build settings
-
-6) Open Xcode, run the simulator.
+3) Open Xcode, run the simulator.
