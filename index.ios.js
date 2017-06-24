@@ -22,7 +22,7 @@ function wait(ms){
      end = new Date().getTime();
   }
 }
-export default class pooper extends Component {
+export default class poopr extends Component {
   constructor(props) {
     super(props);
     this.state = { 
@@ -77,7 +77,7 @@ export default class pooper extends Component {
         <Severity/>
 
         <Text style={styles.welcome}>
-          Welcome to Pooper 💩😊!
+          Welcome to Poopr 💩😊!
         </Text>
       </View>
     );
@@ -110,4 +110,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('pooper', () => pooper);
+AppRegistry.registerComponent('poopr', () => poopr);
