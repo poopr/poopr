@@ -77,7 +77,7 @@ export default class pooper extends Component {
         <Severity/>
 
         <Text style={styles.welcome}>
-          Welcome to Poopr 💩😊!
+          Welcome to Pooper 💩😊!
         </Text>
       </View>
     );
