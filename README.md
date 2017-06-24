@@ -24,3 +24,8 @@ npm install
 ```
 
 3) Open Xcode, run the simulator.
+
+## Build status
+master branch: [![Build Status](https://travis-ci.org/poopr/poopr.svg?branch=master)](https://travis-ci.org/poopr/poopr)
+
+develop branch: [![Build Status](https://travis-ci.org/poopr/poopr.svg?branch=develop)](https://travis-ci.org/poopr/poopr)
