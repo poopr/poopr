@@ -1,6 +1,6 @@
 import 'react-native';
 import React from 'react';
-import Severity from '../how_much_poo';
+import Severity from '../app/how_much_poo';
 // import MapView from 'react-native-maps';
 
 // Note: test renderer must be required after react-native.
