@@ -16,6 +16,7 @@ It is a match made in heaven.
 
 
 ## Install development environment
+### iOS
 1) Install [node package manager](https://www.npmjs.com/get-npm)
 
 2) Install the required modules
@@ -24,6 +25,15 @@ npm install
 ```
 
 3) Open Xcode, run the simulator.
+### Android
+1) Install [node package manager](https://www.npmjs.com/get-npm)
+
+2) Install the required modules
+```
+npm install
+```
+
+3) Follow [this guide](https://facebook.github.io/react-native/docs/getting-started.html) to set up the rest. 
 
 ## Build status
 master branch: [![Build Status](https://travis-ci.org/poopr/poopr.svg?branch=master)](https://travis-ci.org/poopr/poopr)
